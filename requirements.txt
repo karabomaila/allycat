@@ -13,7 +13,7 @@ pymilvus==2.5.5
 milvus-lite==2.4.11
 
 ## Weaviate DB
-# weaviate-client
+weaviate-client
 
 
 ## --- Replicate
@@ -24,6 +24,8 @@ llama-index
 llama-index-embeddings-huggingface
 llama-index-llms-replicate
 llama-index-vector-stores-milvus==0.5.0
+llama-index-vector-stores-weaviate
+
 
 ## --- flask
 flask==2.3.3
@@ -31,6 +33,5 @@ flask==2.3.3
 ## utils
 humanfriendly
 pandas
-mimetypes-magic
 tqdm
 ipykernel
